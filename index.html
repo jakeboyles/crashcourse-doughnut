@@ -1,0 +1,47 @@
+<html>
+
+	<head>
+		<title>Doughnut Website</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body>
+
+		<div class="header">
+			<div class="container">
+				<img src='images/logo.png'></img>
+
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="mainImage">
+			<h2>Le DoughKnot Shoppe</h2>
+		</div>
+
+		<div class="btn">Remove</div>
+
+		<div class="animation">
+			<div class="doughnut">
+				<div class="sprinkles show"></div>
+			</div>
+		</div>
+
+		<script
+			  src="https://code.jquery.com/jquery-1.12.3.min.js"
+			  integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+			  crossorigin="anonymous"></script>
+		<script>
+
+		$(".btn").click(function(e){
+			$(".doughnut .sprinkles").addClass('hide');
+		});
+
+		</script>
+
+	</body>
+
+</html>
